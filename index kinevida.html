@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kinevida</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #ffffff;
+            color: #0d0d0d;
+            text-align: center;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            background-color: #356fff;
+            color: white;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            text-decoration: none;
+            color: white;
+        }
+
+        .menu-icono {
+            display: none;
+        }
+
+        .navbar ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        .header-container {
+            background-color: #e8f0fe;
+            padding: 2rem;
+        }
+
+        .btn-1 {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: #2594e4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        table {
+            width: 100%;
+            margin: 2rem auto;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        td,
+        th {
+            padding: 1rem;
+            vertical-align: top;
+            text-align: left;
+        }
+
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: auto;
+        }
+
+        h1,
+        h2,
+        th {
+            color: #0d0d0d;
+        }
+
+        th {
+            text-align: center;
+            background-color: #59a1f7;
+        }
+
+        @media (max-width: 768px) {
+            .navbar ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+
+            .menu {
+                flex-direction: column;
+            }
+
+            table,
+            tr,
+            td {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Kinevida</a>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#¿Quién soy?">¿Quién soy?</a></li>
+                    <li><a href="#Algunos de los servicios que podemos brindar son:">Servicios</a></li>
+                    <li><a href="#Horarios">Horarios</a></li>
+                    <li><a href="#Las citas disponibles pueden ser consultadas">citas</a></li>
+
+                </ul>
+            </nav>
+        </div>
+
+        <div class="header-container container">
+            <h1>Kinevida</h1>
+            <p></p>
+
+        </div>
+    </header>
+    <section id="¿Quién soy?"></section>
+    <h3> ¿Quien soy?</h3>
+    <p> Kinevida es un lugar en el que te sentiras seguro y comodo. Podemos cubrir todas tus necesidades fisicas,
+        mientras brindamos terapias asistidas por la profesional Elizabeth Avila Vega especializada en el area de
+        fiseoterapia. A lo largo de las consultas lograras observar los enormes cambios fisicos y musculares que pueden
+        veneficiar o mejorar tu salud.
+    </p>
+
+    <img src="Logo Kinevida.png" style="width:400px;">
+
+    <p> En este lugar te ayudaremos a recuperar, mantener y mejorar tu capacidad funcional
+        para moverte y realizar actividades físicas. El trabajo se centra en evaluar, diagnosticar y tratar una amplia
+        gama de afecciones, desde lesiones deportivas hasta problemas neurológicos, utilizando una variedad de técnicas
+        y métodos.  </p>
+        <section id="Algunos de los servicios que podemos brindar son:"></section>
+        <h3> Algunos de los servicios que podemos brindar son:</h3>
+
+         <table>
+        <tr>
+            <td> <img src="MASOTERAPIA.png" style="width:300px;">
+            </td>
+             <td>  <h3> Masoterapia </h3><p>Incluye diversas técnicas o modalidades relacionadas con el masaje, 
+                como puede ser el masaje terapéutico, el masaje deportivo o técnicas como el drenaje linfático 
+                manual terapéutico y técnicas manuales neuromusculares.</p> </td>
+             
+        </tr>
+
+        <tr> 
+             <td> <h3>Kinesioterapia</h3> 
+                <p> La kinesioterapia se corresponde con un método curativo para el tratamiento de 
+                    ciertas deformidades óseas, en la que se realizan movimientos activos o pasivos del cuerpo.
+
+                 Entre sus objetivos principales se incluye perfeccionar respuestas musculares, estimular el movimiento 
+                 del cuerpo, evitar la rigidez articular y tratar incapacidades como la tetraplejia, la paraplejia o hemiplejia, 
+                 así como ciertas enfermedades respiratorias.</p>
+            </td>
+            <td></ts> <img src="KINESIOTRAPIA.png" style="width:300px;">   
+            </td></tr>
+ <tr>
+            <td> <img src="FISIOTERAPIA RESPIRATORIA.png" style="width:300px;">
+            </td>
+             <td>  <h3> Fisioterapia Respiratoria </h3>
+            <p> La fisioterapia pulmonar utiliza procedimientos para la desobstrucción de las vías aéreas, 
+                la reeducación respiratoria y de readaptación al esfuerzo con el objetivo de mejorar el funcionamiento
+                de los músculos del aparato respiratorio y aumentar la resistencia de los pacientes.
+
+                Esta técnica está recomendada en casos de enfermedades neuromusculares como distrofias.</p> </td>
+        </tr>
+
+        <tr> 
+             <td> <h3>Electroterapia y Ultrasonidos</h3> 
+            <p> La electroterapia y los ultrasonidos son técnicas en las que se emplean corrientes 
+                eléctricas o ultrasonidos sobre determinadas partes del cuerpo con el objetivo de potenciar la 
+                acción neuromuscular.
+            Su objetivo principal es ofrecer a los pacientes mejoras tróficas en los tejidos. Sus propiedades son 
+            principalmente antiinflamatorias y analgésicas.</p></td>
+            <td></ts> <img src="ELECTROTERAPIA.png" style="width:300px;">   
+            </td></tr>
+             <tr>
+            <td> <img src="TECNICAS MIOFACIALES.png" style="width:300px;">
+            </td>
+             <td>  <h3> Técnicas Miofaciales </h3> 
+            <p> Enfocadas a la recuperación de lesiones del aparato locomotor, es una técnica manual que consiste en masajear 
+                el tejido conjuntivo del paciente con el fin de aliviar bloqueos y tensiones musculares. 
+                Se trabaja con la fascia haciendo que también se mejore la circulación del paciente.</p></td>
+        </tr>
+
+        <tr> 
+             <td> <h3>Hidroterapia</h3>
+            <p> Esta técnica hace referencia a los procedimientos donde el agua es el elemento principal terapéutico. 
+                Dentro de esta categoría encontramos la talasoterapia (uso del medio y del clima marino) y la hidrocinesiterapia
+                (realización de ejercicios en el agua). Mediante estas terapias físicas se puede conseguir reducir la 
+                inflamación y los dolores musculares.
+
+                También se le atribuyen beneficios en cuanto a la mejora en la circulación, la relajación de los músculos
+                y propiedades antiespasmódicas.</p> </td>
+            <td></ts> <img src="HIDROTERAPIA.png" style="width:300px;">   
+            </td></tr>
+             <tr>
+            <td> <img src="MAGNETOTERAPIA.png" style="width:300px;">
+            </td>
+             <td>  <h3> Magnetoterapia </h3>
+            <p> Esta técnica desarrolla sus tratamientos mediante campos electromagnéticos donde se ayuda a eliminar contracturas. 
+                Algunos de los recursos más empleados en este tipo de tratamiento son la fototerapia, la aplicación de luz
+                ultravioleta o los infrarrojos.
+
+                Todos ellos están indicados para combatir patologías y enfermedades como el acné, la psoriasis, las úlceras
+             por decúbito y la ictericia fisiológica del recién nacido.
+
+</p> </td>
+        </tr>
+
+        <tr> 
+             <td> <h3> Fisiatria </h3>
+            <p> Se basa en el empleo de técnicas quirúrgicas de medicina y rehabilitación física para pacientes con
+                discapacidad física. Su técnica consiste en aplicar electricidad para detectar los nervios y músculos
+                dañados que se deben tratar.
+
+             La fisiatría puede incluir también estudios que detecten el estado y funcionamiento del sistema nervioso,
+             y procedimientos mínimamente invasivos como nucleoplastía (una pequeña intervención para reducir la presión),
+             la detección y tratamiento de arritmias gracias a la radiofrecuencia y estudios de las estructuras o aparatos 
+             del cuerpo en movimiento (fluoroscopia).
+
+             Combinada con ejercicio físico, la fisiatría puede restaurar la movilidad y la funcionalidad del paciente
+             sin la necesidad de cirugía. Aunque no se trata de una técnica nueva, los avances en la ella han permitido
+            a los profesionales conseguir realizar terapias una forma más eficiente y específica.</p> </td>
+            <td></ts> <img src="FISIATRIA.png" style="width:300px;">   
+            </td></tr>
+             </table>
+           
+
+          <section id="Horarios"></section>
+             <h3> Horarios</h3>
+            <p> Puedes agendar en diferentes horarios y días dependiendo de tus necesidades: </p>
+            <img src="Horario Kinevida.jpg" style="width:800px;"> </td>
+
+            <table>
+                <tr> 
+                    <td>
+                        <section id="Las citas disponibles pueden ser consultadas"></section>
+                        <h3> La citas disponibles pueden ser consultadas </h3>
+                    </td>
+                    <td>
+                        
+ <a  target="_blank" href="https://www.facebook.com/share/1CvE8STr5x/"> Facebook  </a></td>
+                </tr>
+            </table>
